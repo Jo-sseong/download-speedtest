@@ -1,4 +1,4 @@
-# ModelScope Download Speed Test
+# Download Speed Test
 
 정해진 시간 동안 데이터셋이 얼마나 다운로드되는지 측정하는
 간단한 도구입니다.
