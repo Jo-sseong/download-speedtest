@@ -67,14 +67,14 @@ python speedtest.py --dataset "DiffSynth-Studio/Qwen-Image-Self-Generated-Datase
 결과는 화면에 출력되고 로그 파일에도 추가됩니다.
 
 ```text
-[on_kr] elapsed=120.0s  bytes=771,467,639  speed=6.13 MiB/s
+[on_kr] elapsed=120.0s  bytes=771,467,639  speed=6.43 MB/s
 ```
 
 | Field | Description |
 | --- | --- |
 | `elapsed` | 측정을 시작한 뒤 실제로 흐른 시간(초) |
 | `bytes` | 임시 다운로드 폴더에 기록된 전체 바이트 수 |
-| `speed` | `bytes / elapsed`로 계산한 평균 다운로드 속도(MiB/s) |
+| `speed` | `bytes / elapsed`로 계산한 평균 다운로드 속도(MB/s) |
 
 ## Measurement notes
 
