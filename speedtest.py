@@ -6,7 +6,7 @@ import time
 from pathlib import Path
 
 
-MIB = 1024**2
+MB = 1000**2
 
 
 def download(dataset, target):
@@ -85,10 +85,10 @@ def main():
             return 1
 
         bytes_downloaded = dir_size(run_dir)
-        speed = bytes_downloaded / MIB / elapsed
+        speed = bytes_downloaded / MB / elapsed
         line = (
             f"[{label}] elapsed={elapsed:.1f}s  "
-            f"bytes={bytes_downloaded:,}  speed={speed:.2f} MiB/s"
+            f"bytes={bytes_downloaded:,}  speed={speed:.2f} MB/s"
         )
 
         print(f"\n=== RESULT ===\n{line}")
